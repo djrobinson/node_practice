@@ -1,0 +1,17 @@
+Javascript has one problems when it is used in a browser.  When JS files are loaded, all of its variables and functions are injected into the global namespace, meaning they are shared by all other scripts.  This can obviously lead to security issues and naming conflicts.
+
+Node.js uses the CommonJS modules standard, and breaks each module out into its own context. To use any moudle you need to use the require function like so:
+
+var module  = require('module_name');
+
+Which will load either a core module or a module installed by NPM. 
+
+In order to create a module and expose it to other modules for usage, you need to uuse the module.exports function like so:
+
+function Circle(x, y, r) {
+
+}
+
+module.exports = Circle;
+
+

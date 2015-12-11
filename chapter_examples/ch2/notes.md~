@@ -1,0 +1,5 @@
+Introduction:
+
+Event driven programming is one of the defining features of node.  Event driven or asynchronous programming is the style of programming that doesn't block I/O, and has functions triggered in an event loop which handles incoming requests and fires the associated callback for each event.  While multiple I/O operations can run in parallel, the event loop runs single-threaded and can only handle one event at a time.  
+
+Javascript has closures and first class functions (meaning they can be passed to other functions).  This means that functions that do I/O operations can be passed a closure which lill be fired automatically when the I/O operation finishes.  It will remember the parent function's context when it is fired.

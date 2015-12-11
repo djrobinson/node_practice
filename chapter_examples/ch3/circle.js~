@@ -1,0 +1,10 @@
+function printA() {
+	console.log('A');
+}
+
+var circum = function(diameter) {
+	var circum = diameter * Math.PI;
+}
+
+module.exports.circum = circum;
+module.exports.printA = printA;

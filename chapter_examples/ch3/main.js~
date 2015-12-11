@@ -1,0 +1,6 @@
+var circle = require('./circle');
+
+  var circumference = circle.circum(2);
+  
+console.log(circumference);
+circle.printA();
