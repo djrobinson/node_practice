@@ -1,0 +1,12 @@
+{
+	"frank": {
+		"username": "frank",
+		"name": "Frank Sinatra",
+		"bio": "Singer"
+	},
+	"fred": {
+		"username": "fred",
+		"name": "Fred Astaire",
+		"bio": "Dancer and Actor"
+	}
+}

@@ -1,0 +1,1 @@
+I'm not finding any good introductions to testing, so I think I'm going to hold on this one. Seems to be a ton of crappy blog posts on testing, but nothing substantial or authoritative enough for my liking.

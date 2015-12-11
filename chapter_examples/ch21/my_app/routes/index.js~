@@ -1,0 +1,10 @@
+
+/*
+ * GET home page.
+ */
+
+module.exports = funciton(app) {
+	app.get('/',function(req, res) {
+		res.render('index', { title: 'Express' })
+	});
+};

@@ -1,6 +1,6 @@
 var request = require('request');
 var inspect = require('util').inspect;
-
+//can also encode as json in other example in book
 body = {
 	a: 1,
 	b: 2

@@ -1,0 +1,14 @@
+{
+	"frank": {
+		"username": "frank",
+		"name": "Frank Sinatra",
+		"bio": "Singer",
+		"password": "thelady"
+	},
+	"fred": {
+		"username": "fred",
+		"name": "Fred Astaire",
+		"bio": "Dancer and Actor",
+		"password": "tophat"
+	}
+}
